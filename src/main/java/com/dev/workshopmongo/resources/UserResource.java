@@ -7,7 +7,6 @@ import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -18,7 +17,6 @@ import com.dev.workshopmongo.domain.Post;
 import com.dev.workshopmongo.domain.User;
 import com.dev.workshopmongo.dto.UserDTO;
 import com.dev.workshopmongo.services.UserService;
-import com.sun.jdi.Method;
 
 @RestController
 @RequestMapping(value = "/users")
